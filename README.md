@@ -4,9 +4,9 @@
 
 <h3>Colaboradores</h3>
     
-    Adriele Uchôa (GITHUB – https://github.com/ADRIELE-UCHOA)
-    Andrey Roberto (GITHUB – https://github.com/andreyroberto)
-    Vanessa Aline (GITHUB – https://github.com/VanessaAline)
+    Adriele Uchôa (GITHUB – <a href = "https://github.com/ADRIELE-UCHOA"/>)
+    Andrey Roberto (GITHUB – <a href = "https://github.com/andreyroberto"/>)
+    Vanessa Aline (GITHUB – <a href = "https://github.com/VanessaAline"/>)
 
 <h3>Orientador</h3>
 
