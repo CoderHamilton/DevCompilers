@@ -1,1 +1,58 @@
-@charset "UTF-8";
+body{
+
+	background-color: #e6e6fa;
+	
+}
+
+header nav{
+background: #76D4D6;
+
+}
+
+button.btn1{
+
+	background: #76D4D6
+
+}
+
+footer{
+	background: #76D4D6;
+	height: 500px;
+	padding-top: 30px;
+}
+
+footer hr{
+	background: black;
+}
+
+footer div p{
+	font-weight: bold;
+}
+
+footer a{
+	color: black;
+}
+
+/*  BREAKPOINTS */
+
+/* DISPOSITIVOS EXTRA SMALL (TELEFONE MODO RETRATO COM MENOS DE 576PX) */
+@media (max-width: 575.98px) {
+  footer .icones {
+    margin-right: 120px;
+  }
+
+  footer .mapa {
+    margin-right: 27px;
+  }
+}
+
+/* DISPOSITIVOS EXTRA SMALL (TELEFONE MODO PAISAGEM, COM 576PX OU MAIS) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  footer .icones {
+    margin-right: 120px;
+  }
+
+  footer .mapa {
+    margin-right: 27px;
+  }
+}

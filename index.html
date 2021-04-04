@@ -8,144 +8,306 @@
   
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
   <!-- Estilo customizado -->
   <link rel="stylesheet" href="css/style.css">
-  <style type="text/css">
-    .azul{  
-      background-color: #76D4D6;
-    }
-
-    .cidade{
-      background-image: url(assets/cidade.jpg);
-    }
-  </style>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
   
   
   <title>MyLab</title>
 </head>
 <body>
-  <!-- Início cabeçalho -->
-  <header>
-    <!-- BARRA DE NAVEGAÇÃO -->
-    <div class="container ">
 
-      <nav class=" navbar sticky-top  navbar-expand-sm navbar-light azul font-weight-bold ">
-          <!-- LOGO -->
-          <a class="navbar-brand" href=""> <img src="assets/logo.png" style="width: 200px;"></a>
+  <!-- INICIO DO CABEÇALHO -->
+  <header> 
 
-          <!-- BOTÃO RESPONSIVO -->
-          <button class="navbar-toggler" data-toggle="collapse" data-target="#abrir">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+    <!-- INICIO BARRA DE NAVEGAÇÃO -->
+    <nav class=" sticky-top navbar navbar-expand-sm navbar-light  py-3"> 
 
-            <!-- NAVEGAÇÃO -->
-        <div class="collapse navbar-collapse " id="abrir">
-            <ul class="navbar-nav ml-auto">
-
-                <li class="nav-item active">
-                    <a class="nav-link" href="">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="">Serviços</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="">Sobre</a>
-                </li>
-                <li class="navbar-item">
-                    <a class="nav-link" href="">Contato</a>
-                </li>
-            
-            </ul>
-
-            <form class="form-inline">
-              <input type="text" class="form-control" placeholder="Pesquisar...">
-              <button class="btn btn-dark">Ok</button>
-            </form>
-
-        </div>
-
-      </nav>
-    </div> 
-    <!-- Final Container -->
-
-  </header>
-  <!-- Final cabeçalho -->
-  
-  <!-- Seção Imagem -->
-  <section class="">
-    <div class="container-fluid">
-      
-      <div class="row">
-        <div class="col-lg-12">
-          <img src="assets/cidade.jpg" class="w-100 ">    
-        </div>
-            
-      </div>
-
-    </div>
-
-    <!-- INOVAÇÃO, CRESCIMENTO, RESULTADO -->
-    <div class="bg-white pt-5">
-
-      <div class="container bg-white">
-        <h3 class="text-capitalize text-center my-5">inovação, crescimento, resultado</h3>
-    
-        <div class="row">
-
-          <div class="col-md-6"> 
-            <img src="assets/lab.jpg" class=" w-100 ml">
-          </div>
-
-          <div class="col-md-6 d-flex">
-            
-            <div class="d-flex">
-
-              <div class="align-self-center">
-                  <h3 class="text-center">MyLab</h3> 
-                  <p class="lead text-justify"> O sistema de Apoio e Gerenciamento para Laboratórios (MyLab) - É uma solução tecnológica para proprietáritos e usuários de laboratórios de escolas, universidades e faculdades.</p>
-                  <button class="btn btn-outline-secondary">Saiba mais...</button>
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
-        <!-- Final Row -->
-      </div>
-
-    </div>
-
-    <!-- INICIO DO RODAPÉ -->
-    <footer class="py-5 border">
-        
-      <hr class="mx-5">
-    
+      <!-- INICIO CONTAINER-->
       <div class="container">
 
-        <div class="col-md-12 d-flex">
+        <!-- INICIO LOGO -->
+        <a href="index.html " class="navbar-brand"> 
+            <img src="assets/logo.png" width="150" class="img-fluid">
+        </a> 
+        <!-- FINAL LOGO -->
 
-          <div class=" offset-6">
-            <svg  xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-github " viewBox="0 0 16 16">
-            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/> </svg>
+        <!-- INICIO MENU RESPONSIVO -->
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#open">
+          <span class="navbar-toggler-icon"></span>
+        </button> 
+        <!-- FINAL MENU RESPONSIVO -->
+
+        <!-- INICIO FUNCIONALIADES PARA ABRIR O MENU -->
+        <div class="collapse navbar-collapse" id="open">
+
+          <!-- INICIO LISTA DE SERVIÇOS E INFORMAÇÕES -->
+
+          <ul class="navbar-nav ml-auto">
+
+            <li  class="nav-item">
+              <a href="index-html" class="nav-link active">Home</a>
+            </li>
+            <li  class="nav-item">
+              <a href="" class="nav-link">Serviços</a>
+            </li>
+            <li  class="nav-item">
+              <a href="" class="nav-link">Sobre</a>
+            </li>
+            <li  class="nav-item">
+              <a href="" class="nav-link">Contato</a>
+            </li>
+            <li  class="nav-item">
+              <form class="input-group">
+                <input type="text" class="form-control" placeholder="Pesquisar...">
+                <div class="input-group-append">
+                <button class="btn btn-dark">Ok</button>
+                  </div>
+              </form>
+            </li>
+
+          </ul>
+          <!-- FINAL LISTA DE SERVIÇOS E INFORMAÇÕES -->
+
+        </div> 
+        <!-- FINAL FUNCIONALIADES PARA ABRIR O MENU -->
+
+      </div> 
+      <!-- FINAL CONTAINER-->
+
+    </nav> 
+    <!-- FINAL BARRA DE NAVEGAÇÃO -->
+
+  </header> 
+  <!-- FINAL DO CABEÇALHO -->
+
+  <!-- INICIO IMAGENS COM CAROUSEL -->
+  <section> 
+    <div class=""> <!-- INICIO CONTAINER-->
+      <div class="row">
+        <div class="col-md-12">
+
+          <!-- INICIO CAROUSEL -->
+          <div id="carousel-indicadores" class=" carousel slide" data-ride="carousel">
+
+            <!--INDICADORES-->
+            <ol  class="carousel-indicators">
+              <li class="active" data-target="#carousel-indicadores" data-slide-to="0"></li>
+              <li data-target="carousel-indicadores" data-slide-to="1"></li>
+              <li data-target="carousel-indicadores" data-slide-to="2"></li>
+            </ol>
+
+
+            <div class="carousel-inner">
+
+              <div class="carousel-item active">
+                <img src="assets/cidade.jpg"  class="w-100">
+                <div class="carousel-caption">
+                  <h3>DevCompilers, a mais nova empresa de inovação e tecnlogia para informatizar e gerenciar laboratórios de sua instituição.</h3>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="assets/antigo.jpg" class="w-100">
+                <div class="carousel-caption">
+                  <h3>Localizada no recife antigo, uma das cidades mais belas do mundo.</h3>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="assets/porto.jpg" class="w-100">
+                <div class="carousel-caption">
+                  <h3>No prédio do porto digital, um dos maiores polos de tecnologia do Brasil.</h3>
+                </div>
+              </div>
+              
+            </div>
+
+          </div> 
+          <!-- FINAL CAROUSEL -->
+          
+        </div>
+        
+      </div>
+      
+    </div>
+    <!-- FINAL CONTAINER-->
+
+  </section> 
+  <!-- FINAL IMAGENS COM CAROUSEL -->
+
+  <!-- INICIO SECTION 2 -->
+  <section>
+
+    <div class="container-fluid">
+      <h3 class="display-4 text-center mb-5">Inovação, Crescimento, e Resultado</h3>
+      <div class="row justify-content-around">
+
+        <div class="col-md-3 d-flex border border-light">
+
+          <div class="align-self-center my-5">
+
+            <img src="https://source.unsplash.com/random/900x454" class="img-fluid" width="1000">
+            <h3 class="text-center">Inovação</h3> 
+
+              <p class="lead text-justify"> O sistema de Apoio e Gerenciamento para Laboratórios (MyLab) - 
+                É uma solução tecnológica para proprietáritos e usuários de laboratórios de escolas, 
+                universidades e faculdades.
+              </p>
+
+              <button class="btn btn-outline-dark">Saiba mais...</button>  
+          
           </div>
 
-       </div>
+        </div>
+
+        <div class="col-md-3 d-flex border border-light ml-0">
+          
+          <div class="align-self-center my-5">
+            <img src="https://source.unsplash.com/user/erondu/900x454" class="img-fluid" width="1000">
+            <h3 class="text-center">Crescimento</h3> 
+
+            <p class="lead text-justify"> O sistema de Apoio e Gerenciamento para Laboratórios (MyLab) - 
+              É uma solução tecnológica para proprietáritos e usuários de laboratórios de escolas, 
+              universidades e faculdades.
+            </p>
+
+            <button class="btn btn-outline-dark">Saiba mais...</button>  
+          
+          </div>
+
+        </div>
+
+        <div class="col-md-3 d-flex border border-light">
+          
+          <div class="align-self-center  my-5">
+            <img src="assets/marcozero.png" class="img-fluid" width="1000">
+            <h3 class="text-center">Resultados</h3> 
+
+              <p class="lead text-justify"> O sistema de Apoio e Gerenciamento para Laboratórios (MyLab) - 
+                É uma solução tecnológica para proprietáritos e usuários de laboratórios de escolas, 
+                universidades e faculdades.
+              </p>
+
+              <button class="btn btn-outline-dark">Saiba mais...</button>  
+          
+          </div>
+
+        </div>
         
-        <cite class="text text-dark blockquote-footer offset-5 d-inline-block  mt-3 ">2021, Dev Compilers Todos os direitos reservados</cite>
+      </div>
+      
+    </div>
+
+  </section>
+  <!-- FINAL SECTION 2 -->
+
+  <!-- INICIO SECTION 3 -->
+  <section>
+
+    <div class="container-fluid">
+      <h3 class="display-4 text-center my-5">Como funciona o Mylab?</h3>
+      <div class="row mx-5 border border-light mb-5">
+        <div class="col-md-6">
+
+          <img src="assets/lab.png" class="img-fluid py-5" width="1000">
+          
+        </div>
+
+        <div class="col-md-6 d-flex ">
+          
+          <div class="align-self-center"> 
+            <h1 class="text-center ">MyLab</h1> 
+            <hr class=" w-75 mb-5">
+            
+            <p class="lead text-justify"> O sistema de Apoio e Gerenciamento para Laboratórios (MyLab) - 
+              É uma solução tecnológica para proprietáritos e usuários de laboratórios de escolas, 
+              universidades e faculdades.
+            </p>
+
+            <button class="btn btn-outline-dark mb-5">Saiba mais...</button>
+                        
+          </div>
+
+        </div>
+        
+      </div>
+      
+    </div>
+    
+  </section>
+  <!-- FINAL SECTION 3 -->
+
+  <!-- RODAPÉ -->
+<footer>
+
+  <hr class="mt-5 w-75">
+
+  <div class="container">
+
+    <div class="d-flex justify-content-center">
+        <div class="item mb-5">
+
+            <a href="https://github.com/CoderHamilton/DevCompilers">
+
+               <svg  xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-github " viewBox="0 0 16 16">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+              </svg>
+              </a>
+        </div> 
 
       </div>
 
-    </footer>
-  
-  </section>
+    <!-- DIRETOS RESERVADOS -->
+    <div class="d-flex justify-content-center">
+        <p class="item">
+          &copy;2021, Dev Compilers Todos os direitos reservados
+        </p> 
+    </div>
 
-  <!-- JavaScript (Opcional) -->
-  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!-- ICONES REDES SOCIAIS -->
+    <div class="d-flex justify-content-end"> 
+
+      <div class="item">
+
+        <a href="" class="btn btn-outline-dark">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="" class="btn btn-outline-dark ml-2">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="btn btn-outline-dark ml-2">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="btn btn-outline-dark ml-2">
+          <i class="fab fa-youtube"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- MAPA PORTO DIGITAL -->
+    <div class="d-flex justify-content-end mt-3 d-block" ">
+      <div class="item">
+      
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.371267959638!2d-34.875296235220084!3d-8.063559944194122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7caecfbcc5347f69!2sPorto%20Digital%20-%20NGPD%20(N%C3%BAcleo%20de%20Gest%C3%A3o%20do%20Porto%20Digital)!5e0!3m2!1spt-BR!2sbr!4v1617491964824!5m2!1spt-BR!2sbr" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy">
+      </iframe>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</footer> <!-- FINAL RODAPÉ -->
+
+<!-- JavaScript (Opcional) -->
+<!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 </body>
 </html>
