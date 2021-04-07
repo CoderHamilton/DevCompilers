@@ -1,40 +1,67 @@
-body{
+@charset "UFT-8";
 
+body {
 	background-color: #e6e6fa;
-	
 }
 
-header nav{
-background: #76D4D6;
+header nav {
+  background: #b0c4de;
+}
 
+header nav li {
+  font-size: 15px;
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+.container-fluid h3 {
+  margin-top: 5%;
 }
 
 .tamanho {
   font-weight: 900;
 }
 
-button.btn1{
-
+button.btn1 {
 	background: #76D4D6
-
 }
 
-footer{
-	background: #76D4D6;
+footer {
+	background: #b0c4de;
 	height: 500px;
 	padding-top: 30px;
 }
 
-footer hr{
-	background: black;
+footer hr {
+	background: #080c22;
 }
 
-footer div p{
+/* paleativo */
+#git-bottom {
+  margin-bottom: -1rem;
+}
+
+footer div p {
+  color: #080c22;
 	font-weight: bold;
+  padding: 0;
+  margin: 0;
 }
 
-footer a{
-	color: black;
+footer a {
+	color: #080c22;
+}
+
+footer .github-icon i {
+  padding: 0;
+  margin: 0;
+  font-size: 30px;
+  color: #080c22;
+}
+
+footer .github-icon i:hover {
+  color: #ffffff;
+  transition: .2s ease all;
 }
 
 /*  BREAKPOINTS */
