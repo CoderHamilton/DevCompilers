@@ -1,89 +1,102 @@
-@charset "UFT-8";
-
-body {
+body{
+	margin: 0px;
+	padding: 0px;
 	background-color: #e6e6fa;
+	overflow-x: hidden;
+	font-family: Helvetica,Arial,sans-serif;
 }
 
-header nav {
-  background: #b0c4de;
+header nav{
+background: #76D4D6;
 }
 
-header nav li {
-  font-size: 15px;
-  margin-right: 15px;
-  font-weight: bold;
+.navbar-light .navbar-nav .nav-link {
+	font-weight: 700;
 }
 
-.container-fluid h3 {
-  margin-top: 5%;
-}
-
-.tamanho {
-  font-weight: 900;
-}
-
-button.btn1 {
-	background: #76D4D6
-}
-
-footer {
-	background: #b0c4de;
+footer{
+	background: #76D4D6;
 	height: 500px;
 	padding-top: 30px;
 }
 
-footer hr {
-	background: #080c22;
+footer hr{
+	background: black;
 }
 
-/* paleativo */
-#git-bottom {
-  margin-bottom: -1rem;
-}
-
-footer div p {
-  color: #080c22;
+footer div p{
 	font-weight: bold;
-  padding: 0;
-  margin: 0;
 }
 
-footer a {
-	color: #080c22;
+footer a{
+	color: black;
 }
 
-footer .github-icon i {
-  padding: 0;
-  margin: 0;
-  font-size: 30px;
-  color: #080c22;
-}
+/*BREAKPOINTS*/
 
-footer .github-icon i:hover {
-  color: #ffffff;
-  transition: .2s ease all;
-}
+/*// Dispositivos extra small (telefones em modo retrato, com menos de 576px)*/
+@media (max-width: 575.98px) { 
 
-/*  BREAKPOINTS */
+	footer .icones{
+		margin-right: 120px;
+	}
 
-/* DISPOSITIVOS EXTRA SMALL (TELEFONE MODO RETRATO COM MENOS DE 576PX) */
-@media (max-width: 575.98px) {
-  footer .icones {
-    margin-right: 120px;
-  }
+	footer .mapa{
+		margin-right: 27px;
+	}
 
-  footer .mapa {
-    margin-right: 27px;
-  }
-}
+ }
 
-/* DISPOSITIVOS EXTRA SMALL (TELEFONE MODO PAISAGEM, COM 576PX OU MAIS) */
-@media (min-width: 576px) and (max-width: 767.98px) {
-  footer .icones {
-    margin-right: 120px;
-  }
+/*// Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
 
-  footer .mapa {
-    margin-right: 27px;
-  }
-}
+	footer .icones{
+		margin-right: 120px;
+	}
+
+	footer .mapa{
+		margin-right: 27px;
+	}
+
+ }
+
+/*// Dispositivos médios (tablets com 768px ou mais)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+footer .icones{
+		margin-right: 120px;
+	}
+
+	footer .mapa{
+		margin-right: 27px;
+	}
+
+ }
+
+/*// Dispositivos large (desktops com 992px ou mais)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+footer .icones{
+		margin-right: 120px;
+	}
+
+	footer .mapa{
+		margin-right: 27px;
+	}
+
+ }
+
+/*// Dispositivos extra large (desktops grandes com 1200px ou mais)*/
+@media (min-width: 1200px) { 
+
+	footer .icones{
+		margin-right: 120px;
+	}
+
+	footer .mapa{
+		margin-right: 27px;
+	}
+
+ }
+
+ /*FINAL BREAKPOINTS*/
